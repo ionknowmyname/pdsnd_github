@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york': 'new_york_city.csv',
+              'newyork': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
 def get_filters():
@@ -13,7 +13,7 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = ''
     while city not in CITY_DATA.keys():     
-        city = input("Would you like to see data for Chicago, New York or Washington? ").lower()
+        city = input("Would you like to see data for Chicago, NewYork or Washington? ").lower()
 
         if city not in CITY_DATA.keys():
             print("\nPlease try again with an accepted input.")
