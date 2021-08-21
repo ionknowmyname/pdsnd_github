@@ -10,7 +10,7 @@ Bikeshare python project
 Analyses Bikeshare user data 
 
 ### Files used
-bikeshare_3.py
+bikeshare_3.py, chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
